@@ -96,7 +96,7 @@ Route::view('personal','personal')->name('personal');
 Route::get('modelos', ModeloController::class)->name('models');
 
 // PASAR PARAMETROS A LA ROUTE
-// Route::get('contactos/{name?}',[ContactoController::class,'dataContact'])->name('contact');
+Route::get('contactos/{name?}',[ContactoController::class,'dataContact'])->name('contact');
 
 
 // Route::resource('autos',AutoController::class)->only('index');
