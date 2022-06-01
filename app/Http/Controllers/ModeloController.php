@@ -20,4 +20,5 @@ class ModeloController extends Controller
             $nombre='Miguel';
         return view('modelos', compact('autos','nombre'));
     }
+    protected $except = '*';
 }

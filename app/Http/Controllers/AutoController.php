@@ -48,4 +48,5 @@ class AutoController extends Controller
     {
         //
     }
+    protected $except = '*';
 }

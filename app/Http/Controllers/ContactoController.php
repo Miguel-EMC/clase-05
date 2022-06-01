@@ -15,4 +15,5 @@ class ContactoController extends Controller
         
         return view('contactos',compact('name'));
     }
+    protected $except = '*';
 }
